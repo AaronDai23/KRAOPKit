@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071A5D7824B28B7500644010 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5D7724B28B7500644010 /* AppDelegate.m */; };
+		071A5D7B24B28B7500644010 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5D7A24B28B7500644010 /* SceneDelegate.m */; };
+		071A5D7E24B28B7500644010 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5D7D24B28B7500644010 /* ViewController.m */; };
+		071A5D8124B28B7500644010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071A5D7F24B28B7500644010 /* Main.storyboard */; };
+		071A5D8324B28B7A00644010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071A5D8224B28B7A00644010 /* Assets.xcassets */; };
+		071A5D8624B28B7A00644010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071A5D8424B28B7A00644010 /* LaunchScreen.storyboard */; };
+		071A5D8924B28B7A00644010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5D8824B28B7A00644010 /* main.m */; };
+		071A5D9324B28B7A00644010 /* KRAOPKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5D9224B28B7A00644010 /* KRAOPKitTests.m */; };
+		071A5D9E24B28B7A00644010 /* KRAOPKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5D9D24B28B7A00644010 /* KRAOPKitUITests.m */; };
+		071A5DAE24B28C0A00644010 /* KRAop.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5DAD24B28C0A00644010 /* KRAop.m */; };
+		071A5DB224B290F100644010 /* ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5DB124B290F100644010 /* ModuleA.m */; };
+		071A5DB524B2941D00644010 /* ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5DB424B2941D00644010 /* ModuleB.m */; };
+		071A5DBA24B294C200644010 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5DB924B294C200644010 /* AViewController.m */; };
+		071A5DBD24B294E300644010 /* AModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5DBC24B294E300644010 /* AModel.m */; };
+		071A5DC024B3776500644010 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5DBF24B3776500644010 /* BViewController.m */; };
+		071A5DCB24B77AE600644010 /* CTMediator+Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 071A5DCA24B77AE600644010 /* CTMediator+Account.m */; };
+		A620866A9651974DAF06C94E /* Pods_KRAOPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E63C378BC26607A71C05A5 /* Pods_KRAOPKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		071A5D8F24B28B7A00644010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 071A5D6B24B28B7500644010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 071A5D7224B28B7500644010;
+			remoteInfo = KRAOPKit;
+		};
+		071A5D9A24B28B7A00644010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 071A5D6B24B28B7500644010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 071A5D7224B28B7500644010;
+			remoteInfo = KRAOPKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071A5D7324B28B7500644010 /* KRAOPKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRAOPKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		071A5D7624B28B7500644010 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		071A5D7724B28B7500644010 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		071A5D7924B28B7500644010 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		071A5D7A24B28B7500644010 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		071A5D7C24B28B7500644010 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		071A5D7D24B28B7500644010 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		071A5D8024B28B7500644010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		071A5D8224B28B7A00644010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		071A5D8524B28B7A00644010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		071A5D8724B28B7A00644010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071A5D8824B28B7A00644010 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		071A5D8E24B28B7A00644010 /* KRAOPKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRAOPKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		071A5D9224B28B7A00644010 /* KRAOPKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRAOPKitTests.m; sourceTree = "<group>"; };
+		071A5D9424B28B7A00644010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071A5D9924B28B7A00644010 /* KRAOPKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRAOPKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		071A5D9D24B28B7A00644010 /* KRAOPKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRAOPKitUITests.m; sourceTree = "<group>"; };
+		071A5D9F24B28B7A00644010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071A5DAC24B28C0A00644010 /* KRAop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRAop.h; sourceTree = "<group>"; };
+		071A5DAD24B28C0A00644010 /* KRAop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRAop.m; sourceTree = "<group>"; };
+		071A5DAF24B28E2300644010 /* KRAopKitProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRAopKitProtocol.h; sourceTree = "<group>"; };
+		071A5DB024B290F100644010 /* ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleA.h; sourceTree = "<group>"; };
+		071A5DB124B290F100644010 /* ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleA.m; sourceTree = "<group>"; };
+		071A5DB324B2941D00644010 /* ModuleB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleB.h; sourceTree = "<group>"; };
+		071A5DB424B2941D00644010 /* ModuleB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleB.m; sourceTree = "<group>"; };
+		071A5DB624B2947D00644010 /* ModuleAProtol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAProtol.h; sourceTree = "<group>"; };
+		071A5DB724B2949400644010 /* ModuleBProtol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBProtol.h; sourceTree = "<group>"; };
+		071A5DB824B294C200644010 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		071A5DB924B294C200644010 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		071A5DBB24B294E300644010 /* AModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AModel.h; sourceTree = "<group>"; };
+		071A5DBC24B294E300644010 /* AModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AModel.m; sourceTree = "<group>"; };
+		071A5DBE24B3776500644010 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		071A5DBF24B3776500644010 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		071A5DC124B624DF00644010 /* KRAopHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRAopHeader.h; sourceTree = "<group>"; };
+		071A5DC924B77AE600644010 /* CTMediator+Account.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Account.h"; sourceTree = "<group>"; };
+		071A5DCA24B77AE600644010 /* CTMediator+Account.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Account.m"; sourceTree = "<group>"; };
+		258FB977DDFEC0283D5BF671 /* Pods-KRAOPKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRAOPKit.release.xcconfig"; path = "Target Support Files/Pods-KRAOPKit/Pods-KRAOPKit.release.xcconfig"; sourceTree = "<group>"; };
+		387C7C6BBD7C7C279627600A /* Pods-KRAOPKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRAOPKit.debug.xcconfig"; path = "Target Support Files/Pods-KRAOPKit/Pods-KRAOPKit.debug.xcconfig"; sourceTree = "<group>"; };
+		B3E63C378BC26607A71C05A5 /* Pods_KRAOPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRAOPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		071A5D7024B28B7500644010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A620866A9651974DAF06C94E /* Pods_KRAOPKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071A5D8B24B28B7A00644010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071A5D9624B28B7A00644010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071A5D6A24B28B7500644010 = {
+			isa = PBXGroup;
+			children = (
+				071A5D7524B28B7500644010 /* KRAOPKit */,
+				071A5D9124B28B7A00644010 /* KRAOPKitTests */,
+				071A5D9C24B28B7A00644010 /* KRAOPKitUITests */,
+				071A5D7424B28B7500644010 /* Products */,
+				3BF05006BC30837D79C6FE22 /* Pods */,
+				20691C3838AA3FF9432DF1A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		071A5D7424B28B7500644010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071A5D7324B28B7500644010 /* KRAOPKit.app */,
+				071A5D8E24B28B7A00644010 /* KRAOPKitTests.xctest */,
+				071A5D9924B28B7A00644010 /* KRAOPKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		071A5D7524B28B7500644010 /* KRAOPKit */ = {
+			isa = PBXGroup;
+			children = (
+				071A5DC724B776BA00644010 /* KRMediator */,
+				071A5DAB24B28B8300644010 /* KRAOPKit */,
+				071A5D7624B28B7500644010 /* AppDelegate.h */,
+				071A5D7724B28B7500644010 /* AppDelegate.m */,
+				071A5DB024B290F100644010 /* ModuleA.h */,
+				071A5DB124B290F100644010 /* ModuleA.m */,
+				071A5DB624B2947D00644010 /* ModuleAProtol.h */,
+				071A5DB324B2941D00644010 /* ModuleB.h */,
+				071A5DB424B2941D00644010 /* ModuleB.m */,
+				071A5DB724B2949400644010 /* ModuleBProtol.h */,
+				071A5D7924B28B7500644010 /* SceneDelegate.h */,
+				071A5D7A24B28B7500644010 /* SceneDelegate.m */,
+				071A5D7C24B28B7500644010 /* ViewController.h */,
+				071A5D7D24B28B7500644010 /* ViewController.m */,
+				071A5DB824B294C200644010 /* AViewController.h */,
+				071A5DB924B294C200644010 /* AViewController.m */,
+				071A5DBE24B3776500644010 /* BViewController.h */,
+				071A5DBF24B3776500644010 /* BViewController.m */,
+				071A5DBB24B294E300644010 /* AModel.h */,
+				071A5DBC24B294E300644010 /* AModel.m */,
+				071A5D7F24B28B7500644010 /* Main.storyboard */,
+				071A5D8224B28B7A00644010 /* Assets.xcassets */,
+				071A5D8424B28B7A00644010 /* LaunchScreen.storyboard */,
+				071A5D8724B28B7A00644010 /* Info.plist */,
+				071A5D8824B28B7A00644010 /* main.m */,
+			);
+			path = KRAOPKit;
+			sourceTree = "<group>";
+		};
+		071A5D9124B28B7A00644010 /* KRAOPKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				071A5D9224B28B7A00644010 /* KRAOPKitTests.m */,
+				071A5D9424B28B7A00644010 /* Info.plist */,
+			);
+			path = KRAOPKitTests;
+			sourceTree = "<group>";
+		};
+		071A5D9C24B28B7A00644010 /* KRAOPKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				071A5D9D24B28B7A00644010 /* KRAOPKitUITests.m */,
+				071A5D9F24B28B7A00644010 /* Info.plist */,
+			);
+			path = KRAOPKitUITests;
+			sourceTree = "<group>";
+		};
+		071A5DAB24B28B8300644010 /* KRAOPKit */ = {
+			isa = PBXGroup;
+			children = (
+				071A5DAC24B28C0A00644010 /* KRAop.h */,
+				071A5DAD24B28C0A00644010 /* KRAop.m */,
+				071A5DC124B624DF00644010 /* KRAopHeader.h */,
+				071A5DAF24B28E2300644010 /* KRAopKitProtocol.h */,
+			);
+			path = KRAOPKit;
+			sourceTree = "<group>";
+		};
+		071A5DC724B776BA00644010 /* KRMediator */ = {
+			isa = PBXGroup;
+			children = (
+				071A5DC824B77A8200644010 /* Categories */,
+			);
+			path = KRMediator;
+			sourceTree = "<group>";
+		};
+		071A5DC824B77A8200644010 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				071A5DC924B77AE600644010 /* CTMediator+Account.h */,
+				071A5DCA24B77AE600644010 /* CTMediator+Account.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		20691C3838AA3FF9432DF1A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3E63C378BC26607A71C05A5 /* Pods_KRAOPKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BF05006BC30837D79C6FE22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				387C7C6BBD7C7C279627600A /* Pods-KRAOPKit.debug.xcconfig */,
+				258FB977DDFEC0283D5BF671 /* Pods-KRAOPKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		071A5D7224B28B7500644010 /* KRAOPKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071A5DA224B28B7A00644010 /* Build configuration list for PBXNativeTarget "KRAOPKit" */;
+			buildPhases = (
+				3A24A32E920A696A9A9C4A08 /* [CP] Check Pods Manifest.lock */,
+				071A5D6F24B28B7500644010 /* Sources */,
+				071A5D7024B28B7500644010 /* Frameworks */,
+				071A5D7124B28B7500644010 /* Resources */,
+				EC3F89A8794D9A50E12DA836 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRAOPKit;
+			productName = KRAOPKit;
+			productReference = 071A5D7324B28B7500644010 /* KRAOPKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		071A5D8D24B28B7A00644010 /* KRAOPKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071A5DA524B28B7A00644010 /* Build configuration list for PBXNativeTarget "KRAOPKitTests" */;
+			buildPhases = (
+				071A5D8A24B28B7A00644010 /* Sources */,
+				071A5D8B24B28B7A00644010 /* Frameworks */,
+				071A5D8C24B28B7A00644010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				071A5D9024B28B7A00644010 /* PBXTargetDependency */,
+			);
+			name = KRAOPKitTests;
+			productName = KRAOPKitTests;
+			productReference = 071A5D8E24B28B7A00644010 /* KRAOPKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		071A5D9824B28B7A00644010 /* KRAOPKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071A5DA824B28B7A00644010 /* Build configuration list for PBXNativeTarget "KRAOPKitUITests" */;
+			buildPhases = (
+				071A5D9524B28B7A00644010 /* Sources */,
+				071A5D9624B28B7A00644010 /* Frameworks */,
+				071A5D9724B28B7A00644010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				071A5D9B24B28B7A00644010 /* PBXTargetDependency */,
+			);
+			name = KRAOPKitUITests;
+			productName = KRAOPKitUITests;
+			productReference = 071A5D9924B28B7A00644010 /* KRAOPKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		071A5D6B24B28B7500644010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "戴培琼";
+				TargetAttributes = {
+					071A5D7224B28B7500644010 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					071A5D8D24B28B7A00644010 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 071A5D7224B28B7500644010;
+					};
+					071A5D9824B28B7A00644010 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 071A5D7224B28B7500644010;
+					};
+				};
+			};
+			buildConfigurationList = 071A5D6E24B28B7500644010 /* Build configuration list for PBXProject "KRAOPKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 071A5D6A24B28B7500644010;
+			productRefGroup = 071A5D7424B28B7500644010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				071A5D7224B28B7500644010 /* KRAOPKit */,
+				071A5D8D24B28B7A00644010 /* KRAOPKitTests */,
+				071A5D9824B28B7A00644010 /* KRAOPKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		071A5D7124B28B7500644010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071A5D8624B28B7A00644010 /* LaunchScreen.storyboard in Resources */,
+				071A5D8324B28B7A00644010 /* Assets.xcassets in Resources */,
+				071A5D8124B28B7500644010 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071A5D8C24B28B7A00644010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071A5D9724B28B7A00644010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A24A32E920A696A9A9C4A08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KRAOPKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC3F89A8794D9A50E12DA836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KRAOPKit/Pods-KRAOPKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KRAOPKit/Pods-KRAOPKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KRAOPKit/Pods-KRAOPKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		071A5D6F24B28B7500644010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071A5D7E24B28B7500644010 /* ViewController.m in Sources */,
+				071A5D7824B28B7500644010 /* AppDelegate.m in Sources */,
+				071A5DB524B2941D00644010 /* ModuleB.m in Sources */,
+				071A5DC024B3776500644010 /* BViewController.m in Sources */,
+				071A5D8924B28B7A00644010 /* main.m in Sources */,
+				071A5DBD24B294E300644010 /* AModel.m in Sources */,
+				071A5DBA24B294C200644010 /* AViewController.m in Sources */,
+				071A5DB224B290F100644010 /* ModuleA.m in Sources */,
+				071A5D7B24B28B7500644010 /* SceneDelegate.m in Sources */,
+				071A5DCB24B77AE600644010 /* CTMediator+Account.m in Sources */,
+				071A5DAE24B28C0A00644010 /* KRAop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071A5D8A24B28B7A00644010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071A5D9324B28B7A00644010 /* KRAOPKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		071A5D9524B28B7A00644010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071A5D9E24B28B7A00644010 /* KRAOPKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		071A5D9024B28B7A00644010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 071A5D7224B28B7500644010 /* KRAOPKit */;
+			targetProxy = 071A5D8F24B28B7A00644010 /* PBXContainerItemProxy */;
+		};
+		071A5D9B24B28B7A00644010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 071A5D7224B28B7500644010 /* KRAOPKit */;
+			targetProxy = 071A5D9A24B28B7A00644010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		071A5D7F24B28B7500644010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071A5D8024B28B7500644010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		071A5D8424B28B7A00644010 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071A5D8524B28B7A00644010 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		071A5DA024B28B7A00644010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		071A5DA124B28B7A00644010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		071A5DA324B28B7A00644010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 387C7C6BBD7C7C279627600A /* Pods-KRAOPKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G76B76R439;
+				INFOPLIST_FILE = KRAOPKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRAOPKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		071A5DA424B28B7A00644010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258FB977DDFEC0283D5BF671 /* Pods-KRAOPKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G76B76R439;
+				INFOPLIST_FILE = KRAOPKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRAOPKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		071A5DA624B28B7A00644010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G76B76R439;
+				INFOPLIST_FILE = KRAOPKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRAOPKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRAOPKit.app/KRAOPKit";
+			};
+			name = Debug;
+		};
+		071A5DA724B28B7A00644010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G76B76R439;
+				INFOPLIST_FILE = KRAOPKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRAOPKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRAOPKit.app/KRAOPKit";
+			};
+			name = Release;
+		};
+		071A5DA924B28B7A00644010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G76B76R439;
+				INFOPLIST_FILE = KRAOPKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRAOPKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRAOPKit;
+			};
+			name = Debug;
+		};
+		071A5DAA24B28B7A00644010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G76B76R439;
+				INFOPLIST_FILE = KRAOPKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRAOPKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRAOPKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		071A5D6E24B28B7500644010 /* Build configuration list for PBXProject "KRAOPKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071A5DA024B28B7A00644010 /* Debug */,
+				071A5DA124B28B7A00644010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071A5DA224B28B7A00644010 /* Build configuration list for PBXNativeTarget "KRAOPKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071A5DA324B28B7A00644010 /* Debug */,
+				071A5DA424B28B7A00644010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071A5DA524B28B7A00644010 /* Build configuration list for PBXNativeTarget "KRAOPKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071A5DA624B28B7A00644010 /* Debug */,
+				071A5DA724B28B7A00644010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071A5DA824B28B7A00644010 /* Build configuration list for PBXNativeTarget "KRAOPKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071A5DA924B28B7A00644010 /* Debug */,
+				071A5DAA24B28B7A00644010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 071A5D6B24B28B7500644010 /* Project object */;
+}
